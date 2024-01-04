@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&family=Nunito:wght@600&family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +6,7 @@
 
 .main{
     background-image: url(files/image/newbg.jpg);
-    height: 100vh;
+    height: 95vh;
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
@@ -17,22 +15,20 @@
 
 .main .box{
     background-color: black;
+    height: 95vh;
+    width: 100%;
+    opacity: 0.79;
     position: absolute;
     top: 0;
-    opacity: 0.79;
-    height: 100vh;
-    width: 100%;
-    
 }
 
-nav {
-    max-width: 195vh;
+nav{
+    max-width: 160vh;
     margin: auto;
     display: flex;
-    align-items: center;
     justify-content:space-between;
+    align-items: center;
     height: 84px;
-
 }
 
 nav img{
@@ -44,78 +40,57 @@ button{
     position: relative;
     z-index: 10;
 }
-.main .hero{
-    border: solid black 2px;
-    height:70%;
-    display: flex;
-    color: white;
-    position: relative;
-    align-items:flex-start;
-    margin-left: 74px;
-    border: none;
-    justify-content: center;
-    flex-direction: column;
-    font-family: 'Martel Sans', sans-serif;
-    /* gap: 16px; */
-    text-align: center;
-    
-}
-
-.hero> :nth-child(1){
-    font-weight: bolder;
-    font-size: 28px;
-    margin-top: 74px;
-}
-.hero> :nth-child(2){
-    font-weight: bolder;
-    font-size: 28px;
-}
-.hero> :nth-child(3){
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    font-size: 12px;
-}
-.hero> :nth-child(4){
-    margin-top: 20px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 400px;
-    font-size: 10px;
-}
-
-.hero input{
-    color: white;
-    padding: 10px 29px 8px 8px;
-    border: 0.1px solid red;
-    margin-top: 10px;
-    border-radius: 3px;
-    background-color: rgba(0, 0, 0, 0.607);
-}
-
-.btn{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    border-radius: 3px;
-    border: none;
-}
 
 .eng{
-    padding: 8px 24px;
-    background-color: rgba(0, 0, 0, 0.607);
+    padding: 8px 29px;
+    background-color: transparent;
     color: white;
-    border: 0.1px white solid;
+    border: 0.5px rgba(255, 255, 255, 0.557) solid;
+    border-radius: 4px;
 }
 
 .sign{
+    margin-left: 25px;
+    padding: 8px 20px;
     background-color: red;
-    padding: 3px 9px;
     color: white;
-    font-size: 8px;
+    border: none;
+    border-radius: 4px;
 }
 
-.get{
-    background-color: red;
-    padding: 8px 24px;
+.text{
     color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 28vh;
+    gap: 20px;
 }
 
+.text> :nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+.text>:nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.text> :nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Martel Sans', sans-serif;
+    
+}
+
+.line{
+    border: 5px solid black;
+    border: none;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.822);
+}
