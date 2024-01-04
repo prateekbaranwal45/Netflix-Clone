@@ -10,8 +10,9 @@
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: max(1200px, 100vw);
 }
+
+
 
 .main .box{
     background-color: black;
@@ -20,6 +21,7 @@
     opacity: 0.79;
     position: absolute;
     top: 0;
+    
 }
 
 nav{
