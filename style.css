@@ -145,6 +145,8 @@
  .textmain2 {
      display: flex;
      flex-direction: column;
+     gap: 10px;
+
  }
 
  .textmain2>:nth-child(1) {
@@ -178,7 +180,7 @@
 
  .main3 {
      color: white;
-     padding: 45px;
+     padding: 30px;
  }
 
 
@@ -188,11 +190,14 @@
      align-content: center;
      align-items: center;
      max-width: 80vw;
+     position: relative;
  }
 
  .textmain3 {
      display: flex;
      flex-direction: column;
+     gap: 10px;
+
  }
 
  .textmain3>:nth-child(1) {
@@ -205,17 +210,47 @@
      font-weight: 400;
  }
 
- section .section_main3 img {
-     width: 600px;
+ .main3 section .imgmain3 img{
+    width: 550px;
  }
 
 .section_main3 .box{
-    width: 320px;
-    height: 100px;
+    width: 315px;
+    height: 95px;
     border: 1px solid white;
     position: relative;
-    left: 160px;
-    bottom: 80px;
+    left: 115px;
+    bottom: 130px;
+    border-radius: 8px;
+    background-color: black;
+}
+
+.main3 section .box img{
+    width: 54px;
+    padding: 10px;
+    position: relative;
+}
+
+.main3 section .box {
+    display: flex;   
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.main3 .box-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-text>:nth-child(1){
+    font-size: 16px;
+    font-weight: 500;
+}
+.box-text>:nth-child(2){
+    color: #0071eb;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .main4{
@@ -239,6 +274,8 @@
 .textmain4{
     display: flex;
     flex-direction: column;
+    gap: 10px;
+
 }
 
 .textmain4>:nth-child(1){
@@ -275,6 +312,7 @@
 .texmain5{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .texmain5>:nth-child(1){
@@ -288,4 +326,70 @@
 
 
 
+.main6 {
+    color: white;
+    padding: 30px;
+}
 
+.main6 section h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 20px;   
+}
+
+.main6 .boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main6 button{
+    background-color: rgb(46, 46, 46);
+    border: none;
+    width: 75vw;
+    height: 12vh;
+    margin: 5px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+}
+
+/* :hover .main6 button{
+    background-color: gray;
+} */
+
+.boxes :hover{
+    background-color: rgba(128, 128, 128, 0.47);
+}
+
+.main6 h3{
+    text-align: center;
+    margin: 40px;
+    font-weight: normal;
+}
+
+.main6 .input-getstarted{
+    display: flex;
+}
+
+.input-getstarted input{
+    background-color: rgba(0, 0, 0, 0.573);
+    border: 0.1px solid red;
+}
+
+.input-getstarted button{
+    width: 200px;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
