@@ -68,6 +68,7 @@
      color: white;
      border: none;
      border-radius: 4px;
+     cursor: pointer;
  }
 
  .text {
@@ -110,7 +111,7 @@
 
 
  .get {
-     padding: 20px 50px;
+     padding: 18px 50px;
      color: white;
      font-size: 19px;
      font-weight: bold;
@@ -119,10 +120,11 @@
      border: none;
      border-radius: 4px;
      margin-left: 10px;
+     cursor: pointer;
  }
 
  .main input {
-     padding: 22px 190px 18px 17px;
+     padding: 22px 190px 18px 14px;
      background-color: rgba(0, 0, 0, 0.185);
      border: 0.1px red solid;
      border-radius: 4px;
@@ -335,7 +337,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 48px;
+    font-size: 50px;
     font-weight: 900;
     margin: 20px;   
 }
@@ -347,7 +349,7 @@
     align-items: center;
 }
 
-.main6 button{
+.main6 .boxes button{
     background-color: rgb(46, 46, 46);
     border: none;
     width: 75vw;
@@ -362,10 +364,6 @@
     color: white;
     cursor: pointer;
 }
-
-/* :hover .main6 button{
-    background-color: gray;
-} */
 
 .boxes :hover{
     background-color: rgba(128, 128, 128, 0.47);
@@ -386,10 +384,18 @@
     border: 0.1px solid red;
 }
 
-.input-getstarted button{
-    width: 200px;
-    background-color: red;
-    border-radius: 5px;
-    font-size: 24px;
-    font-weight: bold;
+.input-getstarted{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
 }
+
+.input-getstarted input{
+    /* top right bottom left */
+    padding: 16px 100px 16px 10px;
+    font-size: 20px;
+    border-radius: 4px;
+    color: white;
+}
+
