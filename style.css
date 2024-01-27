@@ -365,7 +365,7 @@
     cursor: pointer;
 }
 
-.boxes :hover{
+.main6 .boxes .box:hover{
     background-color: rgba(128, 128, 128, 0.47);
 }
 
@@ -399,3 +399,39 @@
     color: white;
 }
 
+.main7{
+    margin: 60px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Martel Sans', sans-serif;
+
+}
+
+.main7 a{
+    color: white;
+    text-decoration: underline 1px;
+}
+
+.main7 p{
+    margin-left: 100px;
+}
+.main7 .features{
+    display: grid;
+    /* grid-template-columns: 300px 300px 300px 300px; */
+    grid-template-columns: repeat(4, 300px);
+
+    font-weight: 100;
+    row-gap: 10px;
+    margin: 10px;
+    justify-content: center;
+}
+
+.main7 .eng{
+    margin: 10px 0px 0px 95px;
+}
+
+.main7 .bottom{
+    margin: 20px 0px 0px 95px;
+    font-weight: 10;
+}
